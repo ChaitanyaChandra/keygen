@@ -7,6 +7,7 @@ Host xxx
     User XXX
     Port XXX
     IdentityFile ~/.ssh/XXX
+    StrictHostKeyChecking no
 
 chmod 600 ~/.ssh/config
 ssh-copy-id Host
